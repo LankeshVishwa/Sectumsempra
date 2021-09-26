@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background001"
+    tools:context=".IT20247218.allpayment">
+
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="395dp"
+        android:background="#D9474747"
+        android:backgroundTintMode="multiply"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="583dp"
+        android:text="All PAYMENTS"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="496dp"
+        android:background="@drawable/button001"
+        android:text="find a payment"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="393dp"
+        android:layout_height="371dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="#D9474747"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="62dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="323dp"
+        android:layout_marginBottom="408dp"
+        android:text="NIC"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="406dp"
+        android:text="DATE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="70dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="407dp"
+        android:text="@string/amount"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="63dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="405dp"
+        android:text="PAID STATE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="405dp"
+        android:foregroundTint="#FFFFFF"
+        android:text="PAID METHOD"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
